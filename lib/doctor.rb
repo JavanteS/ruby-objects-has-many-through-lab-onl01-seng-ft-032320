@@ -30,7 +30,7 @@ class Doctor
   end
 
   def patients
-     appointments.map do |appointment| 
+     appointment.map do |appointment| 
        appointment.patient
     end 
    end
