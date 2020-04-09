@@ -31,7 +31,7 @@ class Doctor
 
   def patients
      
-     appointments.collect do |appointment| 
+     appointments.map do |appointment| 
        appointment.patient
     end 
    end
